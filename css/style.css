@@ -1,0 +1,24 @@
+/*Sempre que quisermos trabalhar com caixas (div) relativas a responsividade é indicado saber a utilização de %
+Header/Section/Footer ou até imagens*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.box {
+    background-color: blueviolet;
+    width: 25%;
+    height: 200px;
+}
+
+.caixa-02, .caixa-04 {
+    width: 50%;
+    height: 250px;
+}
+
